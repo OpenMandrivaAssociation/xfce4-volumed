@@ -33,3 +33,10 @@ and mute keys of the keyboard work automatically.
 %doc ChangeLog AUTHORS THANKS
 %{_sysconfdir}/xdg/autostart/xfce4-volumed.desktop
 %{_bindir}/xfce4-volumed
+
+
+%changelog
+* Sun Apr 29 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.1.13-1mdv2012.0
++ Revision: 794483
+- import xfce4-volumed
+
