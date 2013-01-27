@@ -1,11 +1,11 @@
 %define url_ver %(echo %{version} | cut -c 1-3)
 
-Summary: 	A volume keys control daemon for Xfce
-Name: 		xfce4-volumed
-Version: 	0.1.13
-Release: 	%mkrel 1
+Summary:	A volume keys control daemon for Xfce
+Name:		xfce4-volumed
+Version:	0.1.13
+Release:	2
 License:	GPLv3
-Group: 		Graphical desktop/Xfce
+Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-volumed/
 Source0:	http://archive.xfce.org/src/apps/xfce4-volumed/%{url_ver}/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(libxfconf-0)
