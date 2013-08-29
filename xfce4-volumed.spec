@@ -3,7 +3,7 @@
 Summary:	A volume keys control daemon for Xfce
 Name:		xfce4-volumed
 Version:	0.1.13
-Release:	2
+Release:	3
 License:	GPLv3
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-volumed/
