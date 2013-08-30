@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig(libxfconf-0)
 BuildRequires:	pkgconfig(gstreamer-0.10)
 BuildRequires:	pkgconfig(gstreamer-audio-0.10)
 BuildRequires:	pkgconfig(libnotify)
-BuildRequires:	pkgconfig(keybinder)
+BuildRequires:	pkgconfig(keybinder-3.0)
 
 %description
 This daemon is responsible of making the volume up/down
