@@ -3,7 +3,7 @@
 Summary:	A volume keys control daemon for Xfce
 Name:		xfce4-volumed
 Version:	0.1.13
-Release:	3
+Release:	4
 License:	GPLv3
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-volumed/
@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig(libxfconf-0)
 BuildRequires:	pkgconfig(gstreamer-0.10)
 BuildRequires:	pkgconfig(gstreamer-audio-0.10)
 BuildRequires:	pkgconfig(libnotify)
-BuildRequires:	pkgconfig(keybinder)
+BuildRequires:	pkgconfig(keybinder-3.0)
 
 %description
 This daemon is responsible of making the volume up/down
@@ -33,10 +33,3 @@ and mute keys of the keyboard work automatically.
 %doc ChangeLog AUTHORS THANKS
 %{_sysconfdir}/xdg/autostart/xfce4-volumed.desktop
 %{_bindir}/xfce4-volumed
-
-
-%changelog
-* Sun Apr 29 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.1.13-1mdv2012.0
-+ Revision: 794483
-- import xfce4-volumed
-
