@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig(libxfconf-0)
 BuildRequires:	pkgconfig(gstreamer-0.10)
 BuildRequires:	pkgconfig(gstreamer-audio-0.10)
 BuildRequires:	pkgconfig(libnotify)
-BuildRequires:	pkgconfig(keybinder-3.0)
+BuildRequires:	pkgconfig(keybinder)
 
 %description
 This daemon is responsible of making the volume up/down
@@ -22,7 +22,7 @@ and mute keys of the keyboard work automatically.
 %setup -q
 
 %build
-%configure2_5x \
+%configure \
 	--with-libnotify
 %make
 
