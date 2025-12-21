@@ -8,6 +8,11 @@ License:	GPLv3
 Group:		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/applications/xfce4-volumed/
 Source0:	http://archive.xfce.org/src/apps/xfce4-volumed/%{url_ver}/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxfconf-0)
 BuildRequires:	pkgconfig(gstreamer-0.10)
 BuildRequires:	pkgconfig(gstreamer-audio-0.10)
